@@ -1,0 +1,342 @@
+#dashboard {
+  position: fixed;
+  top: 150px;
+  left: 324px;
+  width: 381px;
+  height: 49px;
+  background: rgba(0,0,0,0);
+}
+#line {
+  position: fixed;
+  top: 200px;
+  left: 324px;
+  width: 460px;
+  height: 1px;
+  background: rgba(0,0,0,0);
+}
+
+
+
+
+#logo{
+  position: fixed;
+  top:18px;
+  left: 324px;
+}
+
+#home {
+  width: 50px;
+  height: 15px;
+  position: fixed;
+  top: 65px;
+  left: 1000px;
+  background: rgba(0,0,0,0);
+}
+
+#aboutus {
+
+  width: 76px;
+  height: 15px;
+  position: fixed;
+  top: 65px;
+  left:1080px;
+  background: rgba(0,0,0,0);
+}
+#activity {
+  position: fixed;
+  left: 1190px;
+  top:67px;
+  width: 62px;
+  height: 18px;
+  background: rgba(0,0,0,0);
+}
+#help {
+  position: fixed;
+  left: 1290px;
+  top: 65px;
+  width: 38px;
+  height: 18px;
+  background: rgba(0,0,0,0);
+}
+#logout {
+  position: fixed;
+  left: 1370px;
+  top:65px;
+  width: 63px;
+  height: 18px;
+  background: rgba(0,0,0,0);
+}
+#facebook {
+  position: fixed;
+  left: 1500px;
+  top:50px;
+  width: 46px;
+  height: 46px;
+  background: rgba(0,0,0,0);
+}
+#twitter {
+  position: fixed;
+  left: 1550px;
+  top:50px;
+  width: 46px;
+  height: 46px;
+  background: rgba(0,0,0,0);
+}
+#matthew {
+  position: fixed;
+  left: 1450px;
+  top:150px;
+  width: 368px;
+  height: 126px;
+}
+#paraFriend {
+  position: fixed;
+  left: 1460px;
+  top: 300px;
+  width: 129px;
+  height: 12px;
+  color: #0149a1;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 12px;
+}
+#friendbase {
+  width: 368px;
+  height: 177px;
+  position: fixed;
+  left: 1450px;
+  top: 300px;
+  background: rgba(0,0,0,0);
+}
+#friendPlus {
+  position: fixed;
+  left: 1560px;
+  top: 315px;
+  width: 13px;
+  height: 13px;
+  background: rgba(0,0,0,0);
+}
+
+#groupBase {
+  position: fixed;
+  left: 1450px;
+  top: 500px;
+  width: 368px;
+  height: 236px;
+  background: rgba(0,0,0,0);
+}
+
+#groups7 {
+  position: fixed;
+  left: 1460px;
+  top: 500px;
+  width: 110px;
+  height: 12px;
+  color: #0149a1;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+#groupPlus {
+  position: fixed;
+  left: 1550px;
+  top: 515px;
+  width: 13px;
+  height: 13px;
+  background: rgba(0,0,0,0);
+}
+
+#bullets {
+  position: fixed;
+  left: 1470px;
+  top: 560px;
+  width: 9px;
+  height: 111px;
+  background: rgba(0,0,0,0);
+}
+#groupText {
+  position: fixed;
+  left: 1500px;
+  top: 550px;
+  width: 222px;
+  height: 139px;
+  color: #0149a1;
+  font-family: "MyriadPro-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+}
+#bg {
+  position: fixed;
+  top: 100px;
+  width: 1923px;
+  height: 991px;
+  background: rgba(0,0,0,0);
+}
+
+/* Simira parts */
+.column-layout
+{
+  position: relative;
+  top: 200px;
+  left: 300px;
+  max-width: 800px;
+  max-height: 1100px;
+
+  line-height: 1.90;
+  display: flex;
+}
+.main-column
+{
+  flex:30;
+  order:2;
+  flex-direction: column-reverse;
+}
+.money
+{
+  padding: 10xp 40xp;
+  margin: 10px auto 0 auto;
+  float: left;
+  background-color: #f5f6f7;
+
+}
+.dash
+{
+  padding: 10xp 40xp;
+  margin: 10px auto 0 auto;
+  background-color:  #f5f6f7;
+
+}
+
+.container
+{
+  margin: 0 auto;
+}
+.YouOwe
+{
+  background-color: #01DF74;
+  max-width: 900px;
+  max-height: 900px;
+  background-color: #f5f6f7;
+  margin: 20px auto 0 auto;
+  padding: 2px;
+  line-height: 1.90;
+  border:4px dotted #01DFD7;
+  border-radius: 10xp ;
+  font-family: 'Open Sans';
+  font-size: 19px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 30px 30PX 30px 30PX;
+  border:4px  #F7FE2E;
+  background: #01DFD7;
+}
+
+.YouAreOwed
+{
+  background-color: #01DF74;
+  max-width: 900px;
+  max-height: 900px;
+  background-color: #f5f6f7;
+  margin: 10px auto 0 auto;
+  padding: 2px;
+  line-height: 1.90;
+  border:4px dotted #00BFFF;
+  border-radius: 20px 0 20px 0;
+  font-family: 'Open Sans';
+  font-size: 19px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 30px 30PX 30px 30PX;
+  border:6px  #F7FE2E;
+  background: #01DFD7;
+
+}
+a
+{
+
+  width: 130px;
+  height:28px;
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color: black;
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  white-space: normal;
+
+}
+
+a:nth-child(1)
+{
+  background: #02baf2;
+  border-radius: 30px 0 30px 0;
+  border:5px dotted #33DCFF;
+
+}
+a:nth-child(1):hover
+{
+  background: #A4A4A4;
+
+}
+a:nth-child(2)
+{
+  background: #02baf2;
+  border-radius: 30px 0 30px 0;
+  border:5px dotted #33DCFF;
+}
+a:nth-child(2):hover
+{
+  background: #A4A4A4;
+
+}
+a:nth-child(3)
+{
+  background: #02baf2;
+  border-radius: 30px 0 30px 0;
+  border:5px dotted #33DCFF;
+}
+a:nth-child(3):hover
+{
+  background: #A4A4A4;
+
+}
+a:nth-child(4)
+{
+  background: #74DF00;
+
+  border:5px dotted #FFFF00;
+  margin: 0 5px 0 50px;
+  padding: 5px 0px;
+  border-radius: 0 30px 0 30px ;
+}
+a:nth-child(4):hover
+{
+  background: #AEB404;
+
+}
+a:nth-child(5)
+{
+  background: #74DF00;
+  margin: 0 ;
+  border-radius: 0 30px 0 30px ;
+
+  border:5px dotted #FFFF00;
+}
+a:nth-child(5):hover
+{
+  background: #AEB404;
+
+}
+
+
+
+
+
