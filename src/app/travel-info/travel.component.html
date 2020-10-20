@@ -1,0 +1,50 @@
+<form #myForm="ngForm" (ngSubmit)="myForm.form.valid  && onSubmit(myForm)">
+
+  <div class="form-group">
+    <label>Origination Airport</label>
+    <input type="text" name="originationAirport" class="form-control" [(ngModel)]="model.originationAirport" #name="ngModel"
+      [ngClass]="{ 'is-invalid': myForm.submitted && name.invalid }" required>
+    <div *ngIf="myForm.submitted && name.invalid" class="invalid-feedback">
+      <p *ngIf="name.errors.required">Origination Airport is required</p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Destination Airport</label>
+    <input type="text" name="destinationAirport" class="form-control" [(ngModel)]="model.destinationAirport" #name="ngModel"
+      [ngClass]="{ 'is-invalid': myForm.submitted && name.invalid }" required>
+    <div *ngIf="myForm.submitted && name.invalid" class="invalid-feedback">
+      <p *ngIf="name.errors.required">Destination Airport is required</p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Travel Date</label>
+    <input type="date" name="travelDate" class="form-control" [(ngModel)]="model.destinationAirport" #name="ngModel"
+      [ngClass]="{ 'is-invalid': myForm.submitted && name.invalid }" required>
+    <div *ngIf="myForm.submitted && name.invalid" class="invalid-feedback">
+      <p *ngIf="name.errors.required">Travel Date is required</p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Number of Traveler</label>
+    <input type="number" name="travelCount" class="form-control" [(ngModel)]="model.travelCount" #name="ngModel"
+      [ngClass]="{ 'is-invalid': myForm.submitted && name.invalid }" required>
+    <div *ngIf="myForm.submitted && name.invalid" class="invalid-feedback">
+      <p *ngIf="name.errors.required">Travel Date is required</p>
+    </div>
+  </div>
+  <div class="form-group">
+    <p>Travel price is :</p>
+    {{model.travelprice}}
+  </div>
+
+
+
+
+
+
+  <div class="form-group">
+    <button class="btn btn-primary btn-block">Submit</button>
+
+  </div>
+
+</form>
