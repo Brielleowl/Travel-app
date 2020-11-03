@@ -17,7 +17,8 @@ import { AboutComponent } from './about/about.component';
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule
+    RouterModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
